@@ -1,7 +1,7 @@
 # CSCI-4406 Computer Networks
 
 ## Overview
-This repository contains lab assignments, reports, and supplemental materials for the CSCI-4406 Computer Networks course. Each lab directory holds one or more PDF documents (report/instructions/results) produced for that assignment. An extra lab (`Lab 11 - Extra`) may contain enrichment or bonus work beyond the core curriculum.
+This repository contains lab assignments, reports, and supplemental materials for the CSCI-4406 Computer Networks course. Each lab directory holds one or more PDF documents (report/instructions/results). As the course evolves, additional artifacts (packet captures, scripts, configs) may be added.
 
 ## Repository Structure
 ```
@@ -37,19 +37,19 @@ README.md            # Project overview and contribution guidance
    git add "Lab <n>" README.md; git commit -m "Add Lab <n> report"; git push
    ```
 
-## Suggested Lab Description Placeholders
-Fill these in as you revisit each lab:
-- Lab 1: Introduction to network models / OSI vs TCP/IP (adjust if different)
-- Lab 2: Basic packet inspection / Wireshark fundamentals (adjust if different)
-- Lab 3: (Add summary)
-- Lab 4: (Add summary)
-- Lab 5: (Add summary)
-- Lab 6: (Add summary)
-- Lab 7: (Add summary)
-- Lab 8: (Add summary)
-- Lab 9: (Add summary)
-- Lab 10: (Add summary)
-- Lab 11 - Extra: (Add summary)
+## Lab Summaries
+Brief one-line summaries for quick reference. Adjust if your actual lab objectives differ.
+- Lab 1: Introduction to network reference models (OSI vs. TCP/IP) and fundamental encapsulation concepts.
+- Lab 2: Basic packet capture and inspection using Wireshark; identifying protocol layers and common header fields.
+- Lab 3: Ethernet & ARP frame analysis; MAC addressing, ARP requests/replies, and local link resolution.
+- Lab 4: IPv4 addressing and subnetting; examining TTL, fragmentation indicators, and header checksum behavior.
+- Lab 5: ICMP diagnostics (ping & traceroute); latency measurement, path discovery, and interpreting ICMP message types.
+- Lab 6: TCP connection establishment & reliability; 3-way handshake, sequence/ack numbers, flow control (rwnd) basics.
+- Lab 7: TCP performance & congestion control; window scaling, retransmissions, and throughput observation under loss.
+- Lab 8: UDP vs. TCP comparative study; lightweight datagram behavior (e.g., DNS queries) versus reliable streams.
+- Lab 9: Application-layer protocols (focus on HTTP); request/response headers, status codes, caching indicators.
+- Lab 10: Network security fundamentals; observing a TLS handshake and simple packet filtering / firewall rule effects.
+- Lab 11 - Extra: Exploratory topics (e.g., IPv6 adoption mechanisms, QoS marking, or SDN experiments in Mininet).
 
 ## Recommended Tools & Environment
 While current materials are PDF-only, future expansions may include:
