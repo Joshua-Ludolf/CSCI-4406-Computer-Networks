@@ -1,7 +1,7 @@
 # CSCI-4406 Computer Networks
 
 ## Overview
-This repository contains lab assignments, reports, and supplemental materials for the CSCI-4406 Computer Networks course. Each lab directory holds one or more PDF documents (report/instructions/results). As the course evolves, additional artifacts (packet captures, scripts, configs) may be added.
+This repository contains lab assignments, reports, and supplemental materials for the CSCI-4406 Computer Networks course. Each lab directory holds one or more PDF documents (report/instructions/results). 
 
 ## Repository Structure
 ```
@@ -25,7 +25,6 @@ README.md            # Project overview and contribution guidance
   - `JLudolf_Lab_<n>.pdf`
   - `CLab<n>_Joshua_Ludolf.pdf` or similar
 - Prefer consistent, descriptive naming: `<LastName><FirstInitial>_Lab_<n>.pdf` or `<CourseCode>_Lab<n>_<FullName>.pdf`.
-- If additional assets (code, packet captures, configs) are needed later, create a subfolder (e.g., `Lab 3/code/`) and reference it inside the PDF.
 
 ## Adding a New Lab
 1. Create a new folder: `Lab <n>/` (match existing numbering and spacing; avoid leading zeros).
@@ -38,7 +37,7 @@ README.md            # Project overview and contribution guidance
    ```
 
 ## Lab Summaries
-Brief one-line summaries for quick reference. Adjust if your actual lab objectives differ.
+Brief one-line summaries for quick reference. 
 - Lab 1: Introduction to network reference models (OSI vs. TCP/IP) and fundamental encapsulation concepts.
 - Lab 2: Basic packet capture and inspection using Wireshark; identifying protocol layers and common header fields.
 - Lab 3: Ethernet & ARP frame analysis; MAC addressing, ARP requests/replies, and local link resolution.
@@ -56,7 +55,7 @@ While current materials are PDF-only, future expansions may include:
 - Packet capture tools: Wireshark, tcpdump
 - Network simulation/emulation: Mininet, GNS3
 - Scripting for analysis: Python (Scapy), PowerShell for automation
-Add a `requirements.txt` or `environment.yml` if code-based labs are introduced.
+
 
 ## Contribution Guidelines
 - Keep commit messages concise and meaningful.
@@ -66,10 +65,5 @@ Add a `requirements.txt` or `environment.yml` if code-based labs are introduced.
 ## License
 See `LICENSE` for terms. Ensure any third-party resources added comply with the repository's license and attribution requirements.
 
-## Future Enhancements (Optional)
-- Per-lab sub-README files summarizing objectives and outcomes.
-- Scripts to automate packet analysis and produce charts embedded in reports.
-- A consolidated index table mapping labs to topics and artifacts.
-
 ---
-Feel free to update this file as the course progresses.
+
